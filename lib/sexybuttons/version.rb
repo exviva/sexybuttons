@@ -1,0 +1,3 @@
+module Sexybuttons
+  VERSION = '0.1.0'
+end

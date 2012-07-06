@@ -1,0 +1,27 @@
+= Sexybuttons
+
+This gem provides access to the sexybuttons library (http://code.google.com/p/sexybuttons) through the Rails asset pipeline.
+
+It contains the contents of Sexybuttons version 1.2, downloaded from http://sexybuttons.googlecode.com/files/SexyButtons_v1.2.zip.
+
+The images have been copied to +vendor/assets/images/sexybuttons+.
+
+The stylesheet has been copied to +vendor/assets/stylesheets/sexybuttons.css.scss+, the paths to background images have been rewritten using the asset path helpers. It uses the "silk" icon set.
+
+= Usage
+
+To use sexybuttons in your Rails app, first add it to your +Gemfile+:
+
+  gem 'sexybuttons', group: :assets
+
+Then, put the following line in your +app/assets/stylesheets/application.css+:
+
+<tt>//= require 'sexybuttons'</tt>
+
+Or, put the following line in your +app/assets/stylesheets/application.css.scss+:
+
+<tt>@import "sexybuttons"</tt>
+
+For a list of available classes, view the stylesheet +vendor/assets/stylesheet/sexybuttons.css.scss+.
+
+This project uses MIT-LICENSE.
