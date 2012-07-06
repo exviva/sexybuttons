@@ -1,3 +1,3 @@
-=== 0.1.0:
+### 0.1.0 (2012-07-06):
 
-* initial release
+* Initial release
